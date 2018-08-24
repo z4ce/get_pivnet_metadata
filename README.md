@@ -16,6 +16,6 @@ optional arguments:
   --url URL      download api link
   --token TOKEN  Pivnet Legacy API Token
 
-example: ./get_pivnet_metadata.py --url 'https://network.pivotal.io/api/v2/products/elastic- runtime/releases/160817/product_files/193873/download' --token 'xxx'
+example: ./get_pivnet_metadata.py --url 'https://network.pivotal.io/api/v2/products/elastic-runtime/releases/160817/product_files/193873/download' --token 'xxx'
 ````
 
