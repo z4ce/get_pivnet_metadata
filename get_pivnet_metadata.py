@@ -4,7 +4,7 @@ import argparse
 
 from zipfile import ZipFile
 if __name__ == "__main__":
-        parser = argparse.ArgumentParser(description='Get pivnet metadata.',
+        parser = argparse.ArgumentParser(description='Get tile metadata from pivnet.',
                                          epilog="example: ./get_pivnet_metadata.py --url 'https://network.pivotal.io/api/v2/products/elastic-runtime/releases/160817/product_files/193873/download' --token 'xxx'")
         parser.add_argument('--url',
                             help='download api link', required=True)

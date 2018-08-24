@@ -1,5 +1,5 @@
 # get_pivnet_metadata
-Gets pivnet metadata without downloading a whole tile using the api link
+Gets tile metadata from pivnet  without downloading a whole tile using the api link
 
 # install
 ```pip3 install -r requirements.txt```
@@ -9,7 +9,7 @@ Gets pivnet metadata without downloading a whole tile using the api link
 ```
 usage: get_pivnet_metadata.py [-h] --url URL --token TOKEN
 
-Get pivnet metadata.
+Get tile metadata from pivnet.
 
 optional arguments:
   -h, --help     show this help message and exit
